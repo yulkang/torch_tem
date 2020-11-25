@@ -30,7 +30,7 @@ This is an implementation of the Tolman-Eichenbaum Machine in pytorch, written f
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You need to install [python >= 3.6.0](https://www.python.org/downloads/), [pytorch >= 1.6.0](https://pytorch.org/), [tensorboard](https://https://www.tensorflow.org/tensorboard), and [scipy](https://www.scipy.org/).
+You need to install [python >= 3.6.0](https://www.python.org/downloads/), [pytorch >= 1.6.0](https://pytorch.org/), and [tensorboard](https://www.tensorflow.org/tensorboard).
 
 
 ### Installation
