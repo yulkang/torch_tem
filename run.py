@@ -85,7 +85,9 @@ else:
     for file in set(envs):
         shutil.copy2(file, os.path.join(envs_path, os.path.basename(file)))    
 
-# Create a tensor board to stay updated on training progress. Start tensorboard with tensorboard --logdir=runs
+# Create a tensor board to stay updated on training progress.
+# Start board with tensorboard --logdir=runs
+# or tensorboard --logdir=../Summaries (worked for tensorboard 2.4.0)
 writer = SummaryWriter(train_path)
 # Create a logger to write log output to file
 logger = utils.make_logger(run_path)
